@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hello-service:war exploded">
+    <output-path>$PROJECT_DIR$/hello-service/target/hello-service</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hello-service" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.0.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.0.4" />
+          <element id="library" level="project" name="Maven: xalan:xalan:2.6.0" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.4.01" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.16" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/hello-service/target/hello-service/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hello-service/web/Web" />
+    </root>
+  </artifact>
+</component>
