@@ -11,6 +11,8 @@ eureka:
     hostname: eureka-server-peer1 #实例名称
     lease-renewal-interval-in-seconds: 5 # 心跳时间，即服务续约间隔时间（缺省30s）
     lease-expiration-duration-in-seconds: 15 # 发呆时间，即服务续约到期时间（缺省为90s）
+    #prefer-ip-address: true
+    #ip-address: 127.0.0.1  #注册中心地址也可以不是主机名，可以使用ip地址
 
   server:
     enable-self-preservation: false       # 关闭自我保护模式（缺省为打开）
